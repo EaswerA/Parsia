@@ -1,0 +1,410 @@
+{
+  "scene": "Castle",
+  "characters": [
+    "TheDarkLord",
+    "Knight",
+    "Mage",
+    "Archer",
+    "Healer"
+  ],
+  "actions": [
+    {
+      "type": "enter",
+      "who": "TheDarkLord"
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "TheDarkLord",
+      "emotion": "laughing"
+    },
+    {
+      "type": "emote",
+      "who": "TheDarkLord",
+      "emotion": "evil"
+    },
+    {
+      "type": "say",
+      "who": "TheDarkLord",
+      "text": "This castle will fall tonight!"
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Knight"
+    },
+    {
+      "type": "say",
+      "who": "Knight",
+      "text": "Not on our watch, fiend!"
+    },
+    {
+      "type": "enter",
+      "who": "Mage"
+    },
+    {
+      "type": "say",
+      "who": "Mage",
+      "text": "Your dark magic ends here."
+    },
+    {
+      "type": "enter",
+      "who": "Archer"
+    },
+    {
+      "type": "say",
+      "who": "Archer",
+      "text": "I have you in my sights."
+    },
+    {
+      "type": "emote",
+      "who": "TheDarkLord",
+      "emotion": "surprised"
+    },
+    {
+      "type": "say",
+      "who": "TheDarkLord",
+      "text": "Fools! You dare challenge me?"
+    },
+    {
+      "type": "emote",
+      "who": "Knight",
+      "emotion": "angry"
+    },
+    {
+      "type": "emote",
+      "who": "Mage",
+      "emotion": "angry"
+    },
+    {
+      "type": "emote",
+      "who": "Archer",
+      "emotion": "angry"
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Archer",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "TheDarkLord",
+      "emotion": "evil"
+    },
+    {
+      "type": "say",
+      "who": "TheDarkLord",
+      "text": "You are resilient... but weak!"
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "Knight",
+      "emotion": "tired"
+    },
+    {
+      "type": "say",
+      "who": "Knight",
+      "text": "He's too strong... we need backup!"
+    },
+    {
+      "type": "emote",
+      "who": "Mage",
+      "emotion": "scared"
+    },
+    {
+      "type": "emote",
+      "who": "Archer",
+      "emotion": "scared"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Healer"
+    },
+    {
+      "type": "emote",
+      "who": "Healer",
+      "emotion": "love"
+    },
+    {
+      "type": "move",
+      "who": "Healer",
+      "dir": "RIGHT",
+      "steps": 3
+    },
+    {
+      "type": "say",
+      "who": "Healer",
+      "text": "I am here! Stand strong, heroes!"
+    },
+    {
+      "type": "emote",
+      "who": "TheDarkLord",
+      "emotion": "scared"
+    },
+    {
+      "type": "say",
+      "who": "TheDarkLord",
+      "text": "No! A Light wielder!"
+    },
+    {
+      "type": "emote",
+      "who": "Healer",
+      "emotion": "happy"
+    },
+    {
+      "type": "emote",
+      "who": "Knight",
+      "emotion": "happy"
+    },
+    {
+      "type": "emote",
+      "who": "Mage",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "who": "Knight",
+      "text": "Now's our chance! Push him back!"
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Knight",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Mage",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "TheDarkLord",
+      "emotion": "tired"
+    },
+    {
+      "type": "say",
+      "who": "TheDarkLord",
+      "text": "This... isn't over."
+    },
+    {
+      "type": "move",
+      "who": "TheDarkLord",
+      "dir": "LEFT",
+      "steps": 2
+    },
+    {
+      "type": "exit",
+      "who": "TheDarkLord"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "emote",
+      "who": "Knight",
+      "emotion": "laughing"
+    },
+    {
+      "type": "emote",
+      "who": "Mage",
+      "emotion": "happy"
+    },
+    {
+      "type": "emote",
+      "who": "Archer",
+      "emotion": "happy"
+    },
+    {
+      "type": "emote",
+      "who": "Healer",
+      "emotion": "love"
+    },
+    {
+      "type": "say",
+      "who": "Knight",
+      "text": "We did it! The realm is safe."
+    },
+    {
+      "type": "say",
+      "who": "Healer",
+      "text": "Well fought, everyone."
+    },
+    {
+      "type": "exit",
+      "who": "Knight"
+    },
+    {
+      "type": "exit",
+      "who": "Mage"
+    },
+    {
+      "type": "exit",
+      "who": "Archer"
+    },
+    {
+      "type": "exit",
+      "who": "Healer"
+    }
+  ],
+  "metadata": {
+    "compiler": "Parsia v1.0",
+    "actionCount": 76,
+    "characterCount": 5
+  }
+}

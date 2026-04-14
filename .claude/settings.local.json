@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python parsia_compiler.py story.story)"
+    ]
+  }
+}

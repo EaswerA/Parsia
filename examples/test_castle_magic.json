@@ -1,0 +1,150 @@
+{
+  "scene": "Castle",
+  "characters": [
+    "King",
+    "Demon",
+    "Hero"
+  ],
+  "actions": [
+    {
+      "type": "enter",
+      "who": "King"
+    },
+    {
+      "type": "emote",
+      "who": "King",
+      "emotion": "tired"
+    },
+    {
+      "type": "say",
+      "who": "King",
+      "text": "Heavy is the head that wears the crown..."
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Demon"
+    },
+    {
+      "type": "emote",
+      "who": "Demon",
+      "emotion": "evil"
+    },
+    {
+      "type": "move",
+      "who": "Demon",
+      "dir": "RIGHT",
+      "steps": 2
+    },
+    {
+      "type": "say",
+      "who": "Demon",
+      "text": "Your reign ends tonight, old man."
+    },
+    {
+      "type": "emote",
+      "who": "King",
+      "emotion": "scared"
+    },
+    {
+      "type": "move",
+      "who": "King",
+      "dir": "LEFT",
+      "steps": 2
+    },
+    {
+      "type": "say",
+      "who": "King",
+      "text": "Guards! Help!"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Hero"
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Not so fast, Demon!"
+    },
+    {
+      "type": "emote",
+      "who": "Demon",
+      "emotion": "surprised"
+    },
+    {
+      "type": "move",
+      "who": "Demon",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "say",
+      "who": "Demon",
+      "text": "Who dares?!"
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "RIGHT",
+      "steps": 2
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Be gone!"
+    },
+    {
+      "type": "exit",
+      "who": "Demon"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "emote",
+      "who": "King",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "who": "King",
+      "text": "You saved the kingdom!"
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Just doing my job."
+    },
+    {
+      "type": "exit",
+      "who": "King"
+    },
+    {
+      "type": "exit",
+      "who": "Hero"
+    }
+  ],
+  "metadata": {
+    "compiler": "Parsia v1.0",
+    "actionCount": 28,
+    "characterCount": 3
+  }
+}

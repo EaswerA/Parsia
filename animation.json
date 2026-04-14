@@ -1,0 +1,107 @@
+{
+  "scene": "Forest",
+  "characters": [
+    "Hero",
+    "Villain"
+  ],
+  "actions": [
+    {
+      "type": "enter",
+      "who": "Hero"
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Where am I..."
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "thinking"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Villain"
+    },
+    {
+      "type": "emote",
+      "who": "Villain",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "who": "Villain",
+      "text": "You shouldn't be here."
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "scared"
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "LEFT",
+      "steps": 2
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "move",
+      "who": "Villain",
+      "dir": "RIGHT",
+      "steps": 2
+    },
+    {
+      "type": "say",
+      "who": "Villain",
+      "text": "You can't escape."
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Watch me!"
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Freedom!"
+    },
+    {
+      "type": "exit",
+      "who": "Hero"
+    },
+    {
+      "type": "exit",
+      "who": "Villain"
+    }
+  ],
+  "metadata": {
+    "compiler": "Parsia v1.0",
+    "actionCount": 19,
+    "characterCount": 2
+  }
+}

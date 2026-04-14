@@ -1,0 +1,213 @@
+{
+  "scene": "Forest",
+  "characters": [
+    "Alice",
+    "Bob",
+    "Charlie"
+  ],
+  "actions": [
+    {
+      "type": "enter",
+      "who": "Alice"
+    },
+    {
+      "type": "emote",
+      "who": "Alice",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "who": "Alice",
+      "text": "What a beautiful forest!"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Bob"
+    },
+    {
+      "type": "move",
+      "who": "Bob",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "Bob",
+      "emotion": "love"
+    },
+    {
+      "type": "say",
+      "who": "Bob",
+      "text": "It's perfect for a picnic."
+    },
+    {
+      "type": "enter",
+      "who": "Charlie"
+    },
+    {
+      "type": "move",
+      "who": "Charlie",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "Charlie",
+      "emotion": "laughing"
+    },
+    {
+      "type": "say",
+      "who": "Charlie",
+      "text": "Did someone say picnic?!"
+    },
+    {
+      "type": "emote",
+      "who": "Alice",
+      "emotion": "surprised"
+    },
+    {
+      "type": "say",
+      "who": "Alice",
+      "text": "Charlie! You made it!"
+    },
+    {
+      "type": "move",
+      "who": "Alice",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Bob",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Charlie",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "Alice",
+      "emotion": "happy"
+    },
+    {
+      "type": "emote",
+      "who": "Bob",
+      "emotion": "happy"
+    },
+    {
+      "type": "emote",
+      "who": "Charlie",
+      "emotion": "happy"
+    },
+    {
+      "type": "say",
+      "who": "Alice",
+      "text": "Let's party!"
+    },
+    {
+      "type": "move",
+      "who": "Alice",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Bob",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Charlie",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "move",
+      "who": "Alice",
+      "dir": "DOWN",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Bob",
+      "dir": "DOWN",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Charlie",
+      "dir": "DOWN",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Alice",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Bob",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Charlie",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "move",
+      "who": "Alice",
+      "dir": "DOWN",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Bob",
+      "dir": "DOWN",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Charlie",
+      "dir": "DOWN",
+      "steps": 1
+    },
+    {
+      "type": "exit",
+      "who": "Alice"
+    },
+    {
+      "type": "exit",
+      "who": "Bob"
+    },
+    {
+      "type": "exit",
+      "who": "Charlie"
+    }
+  ],
+  "metadata": {
+    "compiler": "Parsia v1.0",
+    "actionCount": 38,
+    "characterCount": 3
+  }
+}

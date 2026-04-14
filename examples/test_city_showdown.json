@@ -1,0 +1,146 @@
+{
+  "scene": "City",
+  "characters": [
+    "Detective",
+    "Shadow"
+  ],
+  "actions": [
+    {
+      "type": "enter",
+      "who": "Detective"
+    },
+    {
+      "type": "move",
+      "who": "Detective",
+      "dir": "RIGHT",
+      "steps": 2
+    },
+    {
+      "type": "emote",
+      "who": "Detective",
+      "emotion": "thinking"
+    },
+    {
+      "type": "say",
+      "who": "Detective",
+      "text": "The neon streets are quiet tonight..."
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "enter",
+      "who": "Shadow"
+    },
+    {
+      "type": "emote",
+      "who": "Shadow",
+      "emotion": "evil"
+    },
+    {
+      "type": "say",
+      "who": "Shadow",
+      "text": "Too quiet, Detective!"
+    },
+    {
+      "type": "emote",
+      "who": "Detective",
+      "emotion": "surprised"
+    },
+    {
+      "type": "move",
+      "who": "Detective",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "say",
+      "who": "Detective",
+      "text": "I knew you were behind this."
+    },
+    {
+      "type": "emote",
+      "who": "Shadow",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "who": "Shadow",
+      "text": "You can't stop me!"
+    },
+    {
+      "type": "move",
+      "who": "Shadow",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Shadow",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Shadow",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Shadow",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Shadow",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Shadow",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "emote",
+      "who": "Detective",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "who": "Detective",
+      "text": "I'm taking you down."
+    },
+    {
+      "type": "exit",
+      "who": "Shadow"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "emote",
+      "who": "Detective",
+      "emotion": "tired"
+    },
+    {
+      "type": "say",
+      "who": "Detective",
+      "text": "Another long night..."
+    },
+    {
+      "type": "exit",
+      "who": "Detective"
+    }
+  ],
+  "metadata": {
+    "compiler": "Parsia v1.0",
+    "actionCount": 26,
+    "characterCount": 2
+  }
+}
