@@ -4,7 +4,7 @@
 
 ---
 
-## 🏛️ Project Architecture
+## Project Architecture
 
 The Parsia ecosystem is divided into two primary components:
 
@@ -26,7 +26,7 @@ A premium, browser-based 3D workspace (2.5D visual shell) that serves as the eng
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.10+ (for the CLI compiler)
@@ -46,7 +46,7 @@ Simply open `index.html` in your browser.
 
 ---
 
-## 📝 `.story` Language Reference
+## `.story` Language Reference
 
 ```story
 SCENE Forest
@@ -73,7 +73,7 @@ EXIT Hero
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - `index.html`: The main Animation Studio & Engine.
 - `story_compiler.py`: The production CLI compiler.
 - `story.story`: Default demo script.
