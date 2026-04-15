@@ -1,8 +1,9 @@
 {
-  "scene": "Forest",
+  "scene": "Castle",
   "characters": [
     "Hero",
-    "Villain"
+    "Villain",
+    "Companion"
   ],
   "actions": [
     {
@@ -10,14 +11,56 @@
       "who": "Hero"
     },
     {
+      "type": "enter",
+      "who": "Companion"
+    },
+    {
       "type": "say",
       "who": "Hero",
-      "text": "Where am I..."
+      "text": "This castle... it's darker than I remember."
+    },
+    {
+      "type": "say",
+      "who": "Companion",
+      "text": "Stay close. I don't like this place."
     },
     {
       "type": "emote",
       "who": "Hero",
       "emotion": "thinking"
+    },
+    {
+      "type": "emote",
+      "who": "Companion",
+      "emotion": "scared"
+    },
+    {
+      "type": "wait",
+      "duration": 2.0
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Companion",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "UP",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Companion",
+      "dir": "UP",
+      "steps": 1
     },
     {
       "type": "wait",
@@ -35,22 +78,44 @@
     {
       "type": "say",
       "who": "Villain",
-      "text": "You shouldn't be here."
+      "text": "You shouldn't have come here."
     },
     {
       "type": "emote",
       "who": "Hero",
+      "emotion": "surprised"
+    },
+    {
+      "type": "emote",
+      "who": "Companion",
       "emotion": "scared"
     },
     {
-      "type": "move",
+      "type": "say",
       "who": "Hero",
-      "dir": "LEFT",
-      "steps": 2
+      "text": "Who are you?!"
     },
     {
       "type": "wait",
       "duration": 1.0
+    },
+    {
+      "type": "move",
+      "who": "Villain",
+      "dir": "LEFT",
+      "steps": 2
+    },
+    {
+      "type": "move",
+      "who": "Villain",
+      "dir": "RIGHT",
+      "steps": 2
+    },
+    {
+      "type": "move",
+      "who": "Villain",
+      "dir": "LEFT",
+      "steps": 2
     },
     {
       "type": "move",
@@ -61,24 +126,128 @@
     {
       "type": "say",
       "who": "Villain",
-      "text": "You can't escape."
+      "text": "This forest belongs to me."
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "thinking"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "thinking"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "angry"
     },
     {
       "type": "say",
       "who": "Hero",
-      "text": "Watch me!"
+      "text": "We\u2019re not afraid of you!"
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
     },
     {
       "type": "move",
       "who": "Hero",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Companion",
       "dir": "LEFT",
       "steps": 1
     },
     {
       "type": "move",
       "who": "Hero",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Companion",
       "dir": "LEFT",
       "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Hero",
+      "dir": "RIGHT",
+      "steps": 1
+    },
+    {
+      "type": "move",
+      "who": "Companion",
+      "dir": "LEFT",
+      "steps": 1
+    },
+    {
+      "type": "say",
+      "who": "Companion",
+      "text": "I'm with you!"
+    },
+    {
+      "type": "emote",
+      "who": "Villain",
+      "emotion": "surprised"
+    },
+    {
+      "type": "say",
+      "who": "Villain",
+      "text": "Impressive... but not enough."
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "angry"
+    },
+    {
+      "type": "emote",
+      "who": "Villain",
+      "emotion": "angry"
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "This ends now!"
+    },
+    {
+      "type": "say",
+      "who": "Villain",
+      "text": "Then come at me!"
+    },
+    {
+      "type": "wait",
+      "duration": 2.0
+    },
+    {
+      "type": "emote",
+      "who": "Villain",
+      "emotion": "sad"
+    },
+    {
+      "type": "say",
+      "who": "Villain",
+      "text": "You have spirit..."
     },
     {
       "type": "emote",
@@ -86,9 +255,46 @@
       "emotion": "happy"
     },
     {
+      "type": "emote",
+      "who": "Companion",
+      "emotion": "happy"
+    },
+    {
       "type": "say",
       "who": "Hero",
-      "text": "Freedom!"
+      "text": "We fight together."
+    },
+    {
+      "type": "wait",
+      "duration": 1.0
+    },
+    {
+      "type": "exit",
+      "who": "Villain"
+    },
+    {
+      "type": "say",
+      "who": "Companion",
+      "text": "Did we win...?"
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "For now."
+    },
+    {
+      "type": "emote",
+      "who": "Hero",
+      "emotion": "thinking"
+    },
+    {
+      "type": "wait",
+      "duration": 2.0
+    },
+    {
+      "type": "say",
+      "who": "Hero",
+      "text": "Let's leave this place."
     },
     {
       "type": "exit",
@@ -96,12 +302,12 @@
     },
     {
       "type": "exit",
-      "who": "Villain"
+      "who": "Companion"
     }
   ],
   "metadata": {
     "compiler": "Parsia v1.0",
-    "actionCount": 19,
-    "characterCount": 2
+    "actionCount": 60,
+    "characterCount": 3
   }
 }
